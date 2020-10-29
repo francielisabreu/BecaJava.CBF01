@@ -1,10 +1,10 @@
-CREATE PROCEDURE inserir_campeonato
+CREATE PROCEDURE inserir_campeonato_Mundial
 AS
 BEGIN 
 
 INSERT INTO Campeonato01 (Nome)
-VALUES ('Libertadores')
+VALUES ('Mundial de Clubes')
 
 END
 
-EXECUTE inserir_campeonato
+EXECUTE inserir_campeonato_Mundial

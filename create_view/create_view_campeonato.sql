@@ -1,4 +1,4 @@
-CREATE VIEW VW_Campeonato02
+CREATE VIEW VW_partidas_campeonato
 
 AS
 SELECT 
@@ -13,4 +13,4 @@ SELECT
         INNER JOIN Clube Mandante  ON Partida.MandanteId = Mandante.Id
         INNER JOIN Campeonato01 C ON CampeonatoId = C.Id
 
-		SELECT * FROM VW_Campeonato02
+		SELECT * FROM VW_partidas_campeonato
